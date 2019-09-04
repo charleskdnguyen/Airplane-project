@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F001FD35-AFCA-324C-E12D-5C8089485C4E" name="Utilisateur">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>1E0A0BC0-5348-E586-955F-79AC89CE6B0A</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_utilisateur" id="5D593F02-6F6E-0020-4229-7F086EE1D46C">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>56A528E8-79FA-F935-C534-E8BF291694DB</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nom" id="29D3C2DF-DAA4-307B-14E9-9E6CB2903DE3">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>05E38AEC-9343-FF5A-383D-91357F4F50C7</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mot_de_passe" id="07031353-AB8B-1742-126C-9760E583B5C5">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>947FCC57-2D3E-2156-A273-3FD6161F72F5</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11AB2154-AA81-8389-E24A-17A1BA501D51" name="Utilisateur_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>E9DB7FB1-934E-3915-15F6-7BF5224A4CAD</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D593F02-6F6E-0020-4229-7F086EE1D46C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

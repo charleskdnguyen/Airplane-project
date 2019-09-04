@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C46984B8-1294-A11B-DFCE-ED847F1A2092" name="Amis">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>A619645A-B3A5-FAA1-3972-E8B8EE8AC192</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_ami" id="394A3BFD-4C69-CF72-3851-D7EC3039CF3C">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>420BD462-5EDF-CD03-7368-77CD5B2612A9</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nom" id="4A2F541E-40E0-78FB-9ED6-4FD30A2CD022">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>31C8FBE9-7C69-BAB1-06DF-5FD159ACB4C1</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_no_client" id="D9943126-1234-E314-3816-F82D4EB853BD">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>21F95BDE-907E-31F2-4BD4-979E6D04E1FD</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>686C2F6D-482F-121E-FF7E-802182352E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="423C5520-4940-0605-54D6-311DE64111B7" referredColumn="686C2F6D-482F-121E-FF7E-802182352E1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F687997E-4727-A5C2-BD61-51C0279E0128" name="Amis_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>85F253EE-4DA9-31EF-5489-BDE70BD2B81D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="394A3BFD-4C69-CF72-3851-D7EC3039CF3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F1569AD-11E6-2024-6C1A-494AE03BF0CB" name="Amis_Client_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>162A3E0B-1F94-AE7F-EC74-054A7D2DDF7D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9943126-1234-E314-3816-F82D4EB853BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AvionTransporteur" directorySegmentName="seg_0" id="83B82642-7EB8-D431-A069-3EF1F979433E">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:35:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="B78C91DF-4CC7-E783-EC0D-822685F46DB5" value="true"/>
+</engineerTo>
+<targetPk>DC1F976C-AA2E-E8DB-72F5-7DCC7D55D27D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5FDD67B8-06B6-A7C0-FE31-713F07F203F4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AD6CB98D-3B68-8095-C256-A5886D9DD5E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

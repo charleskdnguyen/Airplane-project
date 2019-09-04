@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A619645A-B3A5-FAA1-3972-E8B8EE8AC192" name="Amis">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:44:33 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_ami" id="420BD462-5EDF-CD03-7368-77CD5B2612A9">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:44:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="Nom" id="31C8FBE9-7C69-BAB1-06DF-5FD159ACB4C1">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:44:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="no_client" id="21F95BDE-907E-31F2-4BD4-979E6D04E1FD">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:45:38 UTC</createdTime>
+<generatorID>162A3E0B-1F94-AE7F-EC74-054A7D2DDF7D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0163195E-0D78-D172-4FB6-CF8C653E9E37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85F253EE-4DA9-31EF-5489-BDE70BD2B81D" name="Amis PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:44:52 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>420BD462-5EDF-CD03-7368-77CD5B2612A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,199 @@
+-- Généré par Oracle SQL Developer Data Modeler 4.0.1.836
+--   à :        2019-05-08 15:56:08 EDT
+--   site :      Oracle Database 11g
+--   type :      Oracle Database 11g
+
+
+
+
+CREATE TABLE Aeroport
+  ( no_aeroport NUMBER NOT NULL , nom VARCHAR2 (30)
+  ) ;
+ALTER TABLE Aeroport ADD CONSTRAINT Aeroport_PK PRIMARY KEY ( no_aeroport ) ;
+
+CREATE TABLE Amis
+  (
+    no_ami           NUMBER NOT NULL ,
+    Nom              VARCHAR2 (30) ,
+    Client_no_client NUMBER
+  ) ;
+ALTER TABLE Amis ADD CONSTRAINT Amis_PK PRIMARY KEY ( no_ami ) ;
+
+CREATE TABLE Avion
+  (
+    no_avion                     NUMBER NOT NULL ,
+    Manufacturier                VARCHAR2 (30) ,
+    Transporteur_no_transporteur NUMBER NOT NULL ,
+    modele                       VARCHAR2 (30) ,
+    description                  VARCHAR2 (30) ,
+    capacite                     NUMBER ,
+    Etat_no_etat                 NUMBER NOT NULL
+  ) ;
+ALTER TABLE Avion ADD CONSTRAINT Avion_PK PRIMARY KEY ( no_avion ) ;
+
+CREATE TABLE Billets
+  (
+    no_billet        NUMBER NOT NULL ,
+    Client_no_client NUMBER NOT NULL ,
+    prix             NUMBER
+  ) ;
+ALTER TABLE Billets ADD CONSTRAINT Billets_PK PRIMARY KEY ( no_billet ) ;
+
+CREATE TABLE Client
+  (
+    no_client     NUMBER NOT NULL ,
+    Nom           VARCHAR2 (30) ,
+    mode_paiement VARCHAR2 (30)
+  ) ;
+ALTER TABLE Client ADD CONSTRAINT Client_PK PRIMARY KEY ( no_client ) ;
+
+CREATE TABLE Employe
+  (
+    no_employe           NUMBER NOT NULL ,
+    Nom                  VARCHAR2 (30) ,
+    Equipage_no_equipage NUMBER
+  ) ;
+ALTER TABLE Employe ADD CONSTRAINT Employe_PK PRIMARY KEY ( no_employe ) ;
+
+CREATE TABLE Equipage
+  (
+    no_equipage NUMBER NOT NULL ,
+    nom         VARCHAR2 (30) NOT NULL ,
+    Vol_no_vol  NUMBER NOT NULL
+  ) ;
+CREATE UNIQUE INDEX Equipage__IDX ON Equipage
+  (
+    Vol_no_vol ASC
+  )
+  ;
+  ALTER TABLE Equipage ADD CONSTRAINT Equipage_PK PRIMARY KEY ( no_equipage ) ;
+
+CREATE TABLE Etat
+  (
+    no_etat     NUMBER NOT NULL ,
+    etat_actual VARCHAR2 (30) NOT NULL
+  ) ;
+ALTER TABLE Etat ADD CONSTRAINT Etat_PK PRIMARY KEY ( no_etat ) ;
+
+CREATE TABLE Piste
+  (
+    no_piste             NUMBER NOT NULL ,
+    Aeroport_no_aeroport NUMBER NOT NULL ,
+    Etat_no_etat         NUMBER NOT NULL ,
+    Vol_no_vol           NUMBER
+  ) ;
+ALTER TABLE Piste ADD CONSTRAINT Piste_PK PRIMARY KEY ( no_piste ) ;
+
+CREATE TABLE Place
+  (
+    no_siege         NUMBER NOT NULL ,
+    prix_siege       NUMBER ,
+    Client_no_client NUMBER NOT NULL ,
+    no_vol           NUMBER
+  ) ;
+ALTER TABLE Place ADD CONSTRAINT Place_PK PRIMARY KEY ( no_siege ) ;
+
+CREATE TABLE Position
+  (
+    no_position NUMBER NOT NULL ,
+    Longitude   NUMBER ,
+    Latitude    NUMBER ,
+    Altitude    NUMBER ,
+    Orientation VARCHAR2 (20) ,
+    Vitesse     NUMBER ,
+    Vol_no_vol  NUMBER NOT NULL
+  ) ;
+ALTER TABLE Position ADD CONSTRAINT Position_PK PRIMARY KEY ( no_position ) ;
+
+CREATE TABLE Transporteur
+  (
+    no_transporteur NUMBER NOT NULL ,
+    nom             VARCHAR2 (30)
+  ) ;
+ALTER TABLE Transporteur ADD CONSTRAINT Transporteur_PK PRIMARY KEY ( no_transporteur ) ;
+
+CREATE TABLE Utilisateur
+  (
+    no_utilisateur NUMBER NOT NULL ,
+    Nom            VARCHAR2 (30) ,
+    Mot_de_passe   VARCHAR2 (30)
+  ) ;
+ALTER TABLE Utilisateur ADD CONSTRAINT Utilisateur_PK PRIMARY KEY ( no_utilisateur ) ;
+
+CREATE TABLE Vol
+  (
+    no_vol          NUMBER NOT NULL ,
+    heure_depart    DATE ,
+    heure_arrivee   DATE ,
+    aeroport_depart VARCHAR2 (30) ,
+    destination     VARCHAR2 (30) ,
+    Avion_no_avion  NUMBER NOT NULL ,
+    porte           NUMBER ,
+    nb_place        NUMBER ,
+    Etat_no_etat    NUMBER NOT NULL
+  ) ;
+ALTER TABLE Vol ADD CONSTRAINT Vol_PK PRIMARY KEY ( no_vol ) ;
+
+ALTER TABLE Amis ADD CONSTRAINT Amis_Client_FK FOREIGN KEY ( Client_no_client ) REFERENCES Client ( no_client ) ;
+
+ALTER TABLE Avion ADD CONSTRAINT Avion_Etat_FK FOREIGN KEY ( Etat_no_etat ) REFERENCES Etat ( no_etat ) ;
+
+ALTER TABLE Avion ADD CONSTRAINT Avion_Transporteur_FK FOREIGN KEY ( Transporteur_no_transporteur ) REFERENCES Transporteur ( no_transporteur ) ;
+
+ALTER TABLE Billets ADD CONSTRAINT Billets_Client_FK FOREIGN KEY ( Client_no_client ) REFERENCES Client ( no_client ) ;
+
+ALTER TABLE Employe ADD CONSTRAINT Employe_Equipage_FK FOREIGN KEY ( Equipage_no_equipage ) REFERENCES Equipage ( no_equipage ) ;
+
+ALTER TABLE Equipage ADD CONSTRAINT Equipage_Vol_FK FOREIGN KEY ( Vol_no_vol ) REFERENCES Vol ( no_vol ) ;
+
+ALTER TABLE Piste ADD CONSTRAINT Piste_Aeroport_FK FOREIGN KEY ( Aeroport_no_aeroport ) REFERENCES Aeroport ( no_aeroport ) ;
+
+ALTER TABLE Piste ADD CONSTRAINT Piste_Etat_FK FOREIGN KEY ( Etat_no_etat ) REFERENCES Etat ( no_etat ) ;
+
+ALTER TABLE Piste ADD CONSTRAINT Piste_Vol_FK FOREIGN KEY ( Vol_no_vol ) REFERENCES Vol ( no_vol ) ;
+
+ALTER TABLE Place ADD CONSTRAINT Place_Client_FK FOREIGN KEY ( Client_no_client ) REFERENCES Client ( no_client ) ;
+
+ALTER TABLE Position ADD CONSTRAINT Position_Vol_FK FOREIGN KEY ( Vol_no_vol ) REFERENCES Vol ( no_vol ) ;
+
+ALTER TABLE Vol ADD CONSTRAINT Vol_Avion_FK FOREIGN KEY ( Avion_no_avion ) REFERENCES Avion ( no_avion ) ;
+
+ALTER TABLE Vol ADD CONSTRAINT Vol_Etat_FK FOREIGN KEY ( Etat_no_etat ) REFERENCES Etat ( no_etat ) ;
+
+
+-- Rapport récapitulatif d'Oracle SQL Developer Data Modeler : 
+-- 
+-- CREATE TABLE                            14
+-- CREATE INDEX                             1
+-- ALTER TABLE                             27
+-- CREATE VIEW                              0
+-- CREATE PACKAGE                           0
+-- CREATE PACKAGE BODY                      0
+-- CREATE PROCEDURE                         0
+-- CREATE FUNCTION                          0
+-- CREATE TRIGGER                           0
+-- ALTER TRIGGER                            0
+-- CREATE COLLECTION TYPE                   0
+-- CREATE STRUCTURED TYPE                   0
+-- CREATE STRUCTURED TYPE BODY              0
+-- CREATE CLUSTER                           0
+-- CREATE CONTEXT                           0
+-- CREATE DATABASE                          0
+-- CREATE DIMENSION                         0
+-- CREATE DIRECTORY                         0
+-- CREATE DISK GROUP                        0
+-- CREATE ROLE                              0
+-- CREATE ROLLBACK SEGMENT                  0
+-- CREATE SEQUENCE                          0
+-- CREATE MATERIALIZED VIEW                 0
+-- CREATE SYNONYM                           0
+-- CREATE TABLESPACE                        0
+-- CREATE USER                              0
+-- 
+-- DROP TABLESPACE                          0
+-- DROP DATABASE                            0
+-- 
+-- REDACTION POLICY                         0
+-- 
+-- ERRORS                                   0
+-- WARNINGS                                 0

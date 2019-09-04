@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F2C0632-232E-A856-C83E-9F0CB566BEAC" name="Billets">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>311AC4CB-5D7A-808E-81A6-D44604935F15</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_billet" id="4FBC5E93-95CE-A0E3-4CC2-77E77E501943">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>F6173405-CC21-F8DB-32A4-B2BBF25041C7</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_no_client" id="879ACCB2-6271-586B-9FE0-813E3582F752">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>FEFDC530-6E07-B787-F86B-6F5478FC426E</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>686C2F6D-482F-121E-FF7E-802182352E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D09DA7-1157-A25B-A4A6-A0162DB46BB1" referredColumn="686C2F6D-482F-121E-FF7E-802182352E1C"/>
+</associations>
+</Column>
+<Column name="prix" id="722705A2-CE99-1425-7F5A-C5ABBC1B217A">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>F15C006D-882C-5948-AFC0-4732ECAEB59D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40A61428-7C76-16B5-17D6-60E12A17411A" name="Billets_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>36290BE0-0DAF-9204-3D18-74D81CACAC7E</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FBC5E93-95CE-A0E3-4CC2-77E77E501943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="425678EE-7B97-AC26-8377-44090ADB1987" name="Billets_Client_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>4B8037F9-6BD5-0034-F5E7-136AB3E3CBA9</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="879ACCB2-6271-586B-9FE0-813E3582F752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

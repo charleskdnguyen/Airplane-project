@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="311AC4CB-5D7A-808E-81A6-D44604935F15" name="Billets">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:26:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_billet" id="F6173405-CC21-F8DB-32A4-B2BBF25041C7">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:26:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="no_client" id="FEFDC530-6E07-B787-F86B-6F5478FC426E">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:38:59 UTC</createdTime>
+<generatorID>4B8037F9-6BD5-0034-F5E7-136AB3E3CBA9</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<referedAttribute>0163195E-0D78-D172-4FB6-CF8C653E9E37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="prix" id="F15C006D-882C-5948-AFC0-4732ECAEB59D">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:51:09 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36290BE0-0DAF-9204-3D18-74D81CACAC7E" name="Billets PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:26:44 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="167F334E-C9D7-3A8B-4CB7-B6A24EF3C76F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6173405-CC21-F8DB-32A4-B2BBF25041C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

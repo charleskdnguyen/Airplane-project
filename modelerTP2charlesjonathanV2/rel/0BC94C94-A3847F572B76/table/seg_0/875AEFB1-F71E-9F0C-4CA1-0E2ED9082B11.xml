@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="875AEFB1-F71E-9F0C-4CA1-0E2ED9082B11" name="Aeroport">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>7A676E91-9BA8-49D8-791C-364D6DB4A1E3</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_aeroport" id="B20DC296-4EA3-3C21-F6E5-7F2FA68FAE35">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>4D4A22BB-7B3C-6C33-B3D5-B12FE056C24C</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="0CA3FD97-754F-1B01-9005-33C254A3FF0D">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>46A84190-80B7-89AA-0974-DD564846FD4B</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A81E8325-5170-3188-774A-82B2E66D2E12" name="Aeroport_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>7107BF77-F748-B403-37EA-9DA1F211A27D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B20DC296-4EA3-3C21-F6E5-7F2FA68FAE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

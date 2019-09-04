@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EquipageEmploye" directorySegmentName="seg_0" id="D51E1886-70F7-0F51-CD60-5A7D82B49AC1">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:34:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="B78C91DF-4CC7-E783-EC0D-822685F46DB5" value="true"/>
+</engineerTo>
+<sourcePk>733F7A90-B22F-B99C-CEF5-B78021DD5618</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83F4C673-EC46-EC8D-D1B6-9243E7B8D98A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>951C0A39-FFA5-A4C4-8E39-696A9CD3CF32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

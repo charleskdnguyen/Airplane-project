@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E0A0BC0-5348-E586-955F-79AC89CE6B0A" name="Utilisateur">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:23:53 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_utilisateur" id="56A528E8-79FA-F935-C534-E8BF291694DB">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:24:05 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="Nom" id="05E38AEC-9343-FF5A-383D-91357F4F50C7">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:24:16 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="Mot_de_passe" id="947FCC57-2D3E-2156-A273-3FD6161F72F5">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:24:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9DB7FB1-934E-3915-15F6-7BF5224A4CAD" name="Utilisateur PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 20:24:15 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56A528E8-79FA-F935-C534-E8BF291694DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

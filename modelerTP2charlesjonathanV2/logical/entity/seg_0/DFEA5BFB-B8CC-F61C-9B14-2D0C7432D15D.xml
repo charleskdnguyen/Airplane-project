@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFEA5BFB-B8CC-F61C-9B14-2D0C7432D15D" name="Piste">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:23:14 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_piste" id="92F78735-FEB1-D20E-D6F6-F1178E44AEFD">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:27:22 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="no_aeroport" id="9469F058-DC56-4DFB-FFFA-CB72F1B1DC9F">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:36:44 UTC</createdTime>
+<generatorID>36C9D561-3E94-E4A2-79D4-507D61AFCF62</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<referedAttribute>4D4A22BB-7B3C-6C33-B3D5-B12FE056C24C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="no_etat1" id="6024692B-EEAF-B05A-A5C7-16C81220236F">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:37:09 UTC</createdTime>
+<generatorID>17B34CE8-F320-240F-E81E-672E6BE0E032</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<referedAttribute>9E3F3CC0-C038-97E4-8EF5-FE1757211160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="no_vol" id="561FF4C6-7FA3-ECC5-A4E5-41C6024346DA">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:54:05 UTC</createdTime>
+<generatorID>29D6DAEC-A674-FB0E-1A43-059BD374ED31</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C20F7138-8ED8-FCB1-4FD7-56548ADDCB20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9341B55-5078-BA9E-B48D-2741612429D5" name="Piste PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:28:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F78735-FEB1-D20E-D6F6-F1178E44AEFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

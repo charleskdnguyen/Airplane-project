@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="951C0A39-FFA5-A4C4-8E39-696A9CD3CF32" name="Employe">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:24:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_employe" id="4D39B9B2-BDA9-4AF9-9C0D-DF9BCC32941C">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:37:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="Nom" id="FFDCB8F9-AC9D-D9C4-69D6-AC6C5FDAFB8B">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:37:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="no_equipage" id="1B6F566F-70FB-5176-4020-CA16715BC87F">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:35:17 UTC</createdTime>
+<generatorID>D51E1886-70F7-0F51-CD60-5A7D82B49AC1</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AFA366C4-DE01-FA22-2DDB-44B46A3BE4F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84A5D29D-75DC-4B3C-763E-954BDBF50D88" name="Employé PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:38:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D39B9B2-BDA9-4AF9-9C0D-DF9BCC32941C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

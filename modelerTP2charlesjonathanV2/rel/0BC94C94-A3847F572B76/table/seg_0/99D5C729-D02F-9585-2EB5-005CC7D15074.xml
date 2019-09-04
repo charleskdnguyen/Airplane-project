@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99D5C729-D02F-9585-2EB5-005CC7D15074" name="Avion">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>5FDD67B8-06B6-A7C0-FE31-713F07F203F4</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_avion" id="30D3D8BE-CD05-D7F2-38E5-70B0E3C91258">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>7E473BB8-B124-A19D-CF90-57F88C816B6E</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manufacturier" id="80F7A2C5-92FF-302E-C1B4-F8F15DE7C991">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>CF22E093-CAA1-7607-CB4B-F15BEAAF67AE</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transporteur_no_transporteur" id="F63E93C5-19BE-BAF1-8209-CED4E8C9B792">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>8513BBC5-A5E6-195E-4A6A-023B0DF835E6</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>904A0F31-92E0-DBAB-0C66-6897C9BB79BD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F0D640E-1BBA-A107-6D43-FBFCEA602A67" referredColumn="904A0F31-92E0-DBAB-0C66-6897C9BB79BD"/>
+</associations>
+</Column>
+<Column name="modele" id="56AEFBE2-50E8-8725-CDF4-0717FBB5EBE7">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>8616590F-42CB-76CF-313F-79FB3502BC2D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="5AA6BFE2-0509-08B5-97A2-90850EA0211A">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>482B7A84-C047-ED01-3E07-AD875F228A76</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacite" id="4D455FE6-1017-5810-B779-7C548B72A1FF">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>09D8B0FC-0F7D-97F9-E822-DC98E3690100</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Etat_no_etat" id="E0C25457-557A-3BBF-8C0D-92FF9B992F06">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>B9962852-61A2-FFA6-5C34-C10F4177A7CD</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>2689836C-2858-3D51-A255-253A09EBC98F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F047F54-17FF-33F9-3005-7F4832F9A510" referredColumn="2689836C-2858-3D51-A255-253A09EBC98F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="673925A9-CA2A-9680-A4BB-6EEF7ED7A204" name="Avion_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>1ACE122C-62A6-C3E3-A94F-E8BBF3B152AC</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D3D8BE-CD05-D7F2-38E5-70B0E3C91258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DE84952-17D4-9914-1115-DAB9FE912F79" name="Avion_Etat_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>5581E747-2B7B-221D-1BB9-21453D5D9B35</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0C25457-557A-3BBF-8C0D-92FF9B992F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="787DA680-1A3F-122D-96EE-F181F11D1A8C" name="Avion_Transporteur_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>83B82642-7EB8-D431-A069-3EF1F979433E</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F63E93C5-19BE-BAF1-8209-CED4E8C9B792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

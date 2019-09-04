@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41804E50-54E7-80CB-5984-649904F6561B" name="Piste">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>DFEA5BFB-B8CC-F61C-9B14-2D0C7432D15D</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_piste" id="274C3BE5-3821-1DAD-C9BE-FF03DD0C24B8">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>92F78735-FEB1-D20E-D6F6-F1178E44AEFD</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aeroport_no_aeroport" id="C3F18DAB-E0D6-046E-6CE9-005CD4FD4331">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>9469F058-DC56-4DFB-FFFA-CB72F1B1DC9F</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>B20DC296-4EA3-3C21-F6E5-7F2FA68FAE35</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52DF5549-51B8-C98D-53E0-BE283BC6CDBD" referredColumn="B20DC296-4EA3-3C21-F6E5-7F2FA68FAE35"/>
+</associations>
+</Column>
+<Column name="Etat_no_etat" id="0B76E6E9-C58C-1D49-2F1F-BCF971DCEDAB">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>6024692B-EEAF-B05A-A5C7-16C81220236F</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>2689836C-2858-3D51-A255-253A09EBC98F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AB225C5-64FC-D075-DBF9-99C1AD3A49C6" referredColumn="2689836C-2858-3D51-A255-253A09EBC98F"/>
+</associations>
+</Column>
+<Column name="Vol_no_vol" id="7B04C253-0D91-645B-90AD-283B1A7091C9">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>561FF4C6-7FA3-ECC5-A4E5-41C6024346DA</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E0F6D07B-6D78-B271-4DC6-424403B774CF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6078B051-C941-FE0F-4C26-7A281F167667" referredColumn="E0F6D07B-6D78-B271-4DC6-424403B774CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28801259-AFCD-3283-B763-BD42108C58B7" name="Piste_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>B9341B55-5078-BA9E-B48D-2741612429D5</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274C3BE5-3821-1DAD-C9BE-FF03DD0C24B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDBC87B3-382C-53DB-A6D1-C08D17A59440" name="Piste_Aeroport_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>36C9D561-3E94-E4A2-79D4-507D61AFCF62</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3F18DAB-E0D6-046E-6CE9-005CD4FD4331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4940550-DAD5-78CB-0346-346FF93A75F2" name="Piste_Etat_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>17B34CE8-F320-240F-E81E-672E6BE0E032</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B76E6E9-C58C-1D49-2F1F-BCF971DCEDAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E409DAA-6F18-9FDB-E428-B46D6DBA6544" name="Piste_Vol_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>29D6DAEC-A674-FB0E-1A43-059BD374ED31</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B04C253-0D91-645B-90AD-283B1A7091C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

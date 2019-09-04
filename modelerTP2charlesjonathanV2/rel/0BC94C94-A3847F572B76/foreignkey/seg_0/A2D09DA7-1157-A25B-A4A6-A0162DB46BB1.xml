@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2D09DA7-1157-A25B-A4A6-A0162DB46BB1" name="Billets_Client_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>4B8037F9-6BD5-0034-F5E7-136AB3E3CBA9</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<containerWithKeyObject>0F2C0632-232E-A856-C83E-9F0CB566BEAC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>425678EE-7B97-AC26-8377-44090ADB1987</localFKIndex>
+<keyObject>906BABC5-92A7-A01A-80F5-EF6B4A13F1BD</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

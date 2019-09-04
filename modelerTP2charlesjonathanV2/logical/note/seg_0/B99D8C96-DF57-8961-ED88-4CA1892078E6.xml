@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Note class="oracle.dbtools.crest.model.design.Note" name="Note_16" directorySegmentName="seg_0" id="B99D8C96-DF57-8961-ED88-4CA1892078E6">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 16:01:40 UTC</createdTime>
+<comment>possède</comment>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="B78C91DF-4CC7-E783-EC0D-822685F46DB5" value="true"/>
+</engineerTo>
+</Note>

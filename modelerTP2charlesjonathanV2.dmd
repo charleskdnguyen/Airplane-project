@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelerTP2charlesjonathanV2" id="704D1F0D-56AA-5A28-2624-9962E3B1260B" version="3.5">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-24 15:20:09 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathan</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>704D1F0D-56AA-5A28-2624-9962E3B1260B</designId>
+</OSDM_Design>

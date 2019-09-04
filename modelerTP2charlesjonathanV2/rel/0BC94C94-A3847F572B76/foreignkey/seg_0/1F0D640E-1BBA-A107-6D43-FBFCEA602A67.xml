@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F0D640E-1BBA-A107-6D43-FBFCEA602A67" name="Avion_Transporteur_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>83B82642-7EB8-D431-A069-3EF1F979433E</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<containerWithKeyObject>99D5C729-D02F-9585-2EB5-005CC7D15074</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>787DA680-1A3F-122D-96EE-F181F11D1A8C</localFKIndex>
+<keyObject>4034DE06-D756-689F-4BDF-FF4B51437038</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

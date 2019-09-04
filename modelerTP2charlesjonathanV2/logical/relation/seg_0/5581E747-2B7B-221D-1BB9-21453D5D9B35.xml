@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AvionEtatSol" directorySegmentName="seg_0" id="5581E747-2B7B-221D-1BB9-21453D5D9B35">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:35:49 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<sourcePk>1ACE122C-62A6-C3E3-A94F-E8BBF3B152AC</sourcePk>
+<targetPk>FE6A6F90-5AE6-1FF8-66A6-94E54EE6CF2B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5FDD67B8-06B6-A7C0-FE31-713F07F203F4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DB1418F2-5C70-7D88-BEB7-ACAD15974DD4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

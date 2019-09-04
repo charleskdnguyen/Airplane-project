@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="875AEFB1-F71E-9F0C-4CA1-0E2ED9082B11" name="Aeroport" seqName="seg_0"/>
+   <object objectType="Table" objectID="C46984B8-1294-A11B-DFCE-ED847F1A2092" name="Amis" seqName="seg_0"/>
+   <object objectType="Table" objectID="99D5C729-D02F-9585-2EB5-005CC7D15074" name="Avion" seqName="seg_0"/>
+   <object objectType="Table" objectID="0F2C0632-232E-A856-C83E-9F0CB566BEAC" name="Billets" seqName="seg_0"/>
+   <object objectType="Table" objectID="B9277296-FFDC-4597-795E-75CEDEDD83BB" name="Client" seqName="seg_0"/>
+   <object objectType="Table" objectID="2B980DBA-42F2-91E7-5E0F-EC7361C3E075" name="Employe" seqName="seg_0"/>
+   <object objectType="Table" objectID="AD6504EF-70CE-3D34-81DD-130CC9C2784A" name="Equipage" seqName="seg_0"/>
+   <object objectType="Table" objectID="9055A846-BE74-C118-25BF-2DD71836571E" name="Etat" seqName="seg_0"/>
+   <object objectType="Table" objectID="41804E50-54E7-80CB-5984-649904F6561B" name="Piste" seqName="seg_0"/>
+   <object objectType="Table" objectID="00431AA6-1ECE-2E0B-0D3F-39B9E648357D" name="Place" seqName="seg_0"/>
+   <object objectType="Table" objectID="48238E46-B688-E3FB-4D9E-8FEBF4647098" name="Position" seqName="seg_0"/>
+   <object objectType="Table" objectID="4DC9E495-61F1-E5E9-C084-E87FD87B6D09" name="Transporteur" seqName="seg_0"/>
+   <object objectType="Table" objectID="F001FD35-AFCA-324C-E12D-5C8089485C4E" name="Utilisateur" seqName="seg_0"/>
+   <object objectType="Table" objectID="E14A964C-8089-F852-D8EA-91F104F89653" name="Vol" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="423C5520-4940-0605-54D6-311DE64111B7" name="Amis_Client_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9F047F54-17FF-33F9-3005-7F4832F9A510" name="Avion_Etat_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1F0D640E-1BBA-A107-6D43-FBFCEA602A67" name="Avion_Transporteur_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A2D09DA7-1157-A25B-A4A6-A0162DB46BB1" name="Billets_Client_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8022E333-0257-BD64-562F-7F3A6A0239B8" name="Employe_Equipage_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FA9962EF-7EEE-BD7A-4E7D-B25D955AB797" name="Equipage_Vol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="52DF5549-51B8-C98D-53E0-BE283BC6CDBD" name="Piste_Aeroport_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9AB225C5-64FC-D075-DBF9-99C1AD3A49C6" name="Piste_Etat_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6078B051-C941-FE0F-4C26-7A281F167667" name="Piste_Vol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E81DEF5F-38F4-072A-0837-579FD62FD033" name="Place_Client_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="03829819-5A43-99BE-C22F-FBA73C3D5F9A" name="Position_Vol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="296F1B55-62AC-972C-D8B7-AA64370CB3A6" name="Vol_Avion_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8576FB5C-A726-52FE-9C07-832E7DD4011B" name="Vol_Etat_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

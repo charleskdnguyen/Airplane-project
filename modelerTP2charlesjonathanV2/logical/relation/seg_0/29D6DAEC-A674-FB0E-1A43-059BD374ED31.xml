@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VolPiste" directorySegmentName="seg_0" id="29D6DAEC-A674-FB0E-1A43-059BD374ED31">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:32:05 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="0BC94C94-7B87-FA89-A13E-A3847F572B76" value="true"/>
+</engineerTo>
+<sourcePk>1D11FC36-87D6-C8E2-77E0-529115699D58</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>189F23BF-4580-65A7-78FD-125221BC0E4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFEA5BFB-B8CC-F61C-9B14-2D0C7432D15D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

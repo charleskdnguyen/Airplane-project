@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00431AA6-1ECE-2E0B-0D3F-39B9E648357D" name="Place">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>D6B8EC14-4730-D5BE-8003-8C1907889423</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_siege" id="03D51469-364B-91D4-B2F9-0B2898C819B7">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>F42097FC-BC75-F1CA-BE7C-61009AF7AD28</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix_siege" id="8EDA1ACF-A8F2-6D77-0017-0216B4594387">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>4560D01C-F79B-3C02-E65C-3E51612507AE</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_no_client" id="F9F6C4A4-CE1D-BFFB-93A8-6E0CBB77849A">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>DBBF250F-C9E9-B59A-1E8B-7C9A81279148</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>686C2F6D-482F-121E-FF7E-802182352E1C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81DEF5F-38F4-072A-0837-579FD62FD033" referredColumn="686C2F6D-482F-121E-FF7E-802182352E1C"/>
+</associations>
+</Column>
+<Column name="no_vol" id="DC43305C-A79E-AB0F-DBBD-D23E824A57D1">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>165F99BE-15DD-130C-D70F-174D72860BCD</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE021AB2-CE3B-6597-5A03-11B7A925C95D" name="Place_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>95C9F8AB-672C-8AC0-F53B-F789164A06F3</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03D51469-364B-91D4-B2F9-0B2898C819B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D6BC041-115B-9BB2-6916-2B32F320FE98" name="Place_Client_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>E5E3F7D9-E41A-C4FA-4459-0ACD8ED25B35</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F6C4A4-CE1D-BFFB-93A8-6E0CBB77849A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

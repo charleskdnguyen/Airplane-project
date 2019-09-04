@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8576FB5C-A726-52FE-9C07-832E7DD4011B" name="Vol_Etat_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>123BBFF1-46E4-2D07-464B-D6F039FBE5F7</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<containerWithKeyObject>E14A964C-8089-F852-D8EA-91F104F89653</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>19814502-8D85-1740-EEF9-FECB8C17D90D</localFKIndex>
+<keyObject>54AC78BA-311D-260A-B733-49D73D9FDA46</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

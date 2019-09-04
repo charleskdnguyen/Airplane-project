@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VolAvion" directorySegmentName="seg_0" id="F6DA5897-112E-B21C-6416-B1B2B98BB180">
+<createdBy>0970690</createdBy>
+<createdTime>2019-04-29 19:31:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<engineerTo>
+<item key="B78C91DF-4CC7-E783-EC0D-822685F46DB5" value="true"/>
+</engineerTo>
+<targetPk>1ACE122C-62A6-C3E3-A94F-E8BBF3B152AC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>189F23BF-4580-65A7-78FD-125221BC0E4F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5FDD67B8-06B6-A7C0-FE31-713F07F203F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

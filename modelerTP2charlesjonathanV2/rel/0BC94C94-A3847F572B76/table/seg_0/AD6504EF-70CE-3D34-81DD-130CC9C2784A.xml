@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD6504EF-70CE-3D34-81DD-130CC9C2784A" name="Equipage">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>83F4C673-EC46-EC8D-D1B6-9243E7B8D98A</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_equipage" id="38708007-B867-2B0F-CD26-1B2394731DEF">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>AFA366C4-DE01-FA22-2DDB-44B46A3BE4F3</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="71AA17C1-1892-8811-450D-39B68768B641">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>0A749693-830D-3619-C94A-D70A05FD3EDF</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vol_no_vol" id="ED0E9498-8DEA-FE99-B1AD-72979E2E7372">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>8C8FEB0C-A135-E0BC-0CE5-7A4D97AB604F</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E0F6D07B-6D78-B271-4DC6-424403B774CF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA9962EF-7EEE-BD7A-4E7D-B25D955AB797" referredColumn="E0F6D07B-6D78-B271-4DC6-424403B774CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2077F88-9AF8-6181-942B-4C7EF7117551" name="Equipage_PK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>733F7A90-B22F-B99C-CEF5-B78021DD5618</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38708007-B867-2B0F-CD26-1B2394731DEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D3DD5AC-63FA-CFAD-5906-516DFADE51E6" name="Equipage__IDX">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6B1501B3-0B8F-1461-FD16-85F6F53FEE49</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ED0E9498-8DEA-FE99-B1AD-72979E2E7372"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E4705B5-A56B-0BEA-2D7B-719FAF00DE9B" name="Equipage_Vol_FK">
+<createdBy>0970690</createdBy>
+<createdTime>2019-05-08 19:55:50 UTC</createdTime>
+<generatorID>6B1501B3-0B8F-1461-FD16-85F6F53FEE49</generatorID>
+<ownerDesignName>modelerTP2charlesjonathanV2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0E9498-8DEA-FE99-B1AD-72979E2E7372"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
